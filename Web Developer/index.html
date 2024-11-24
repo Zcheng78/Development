@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">ZC</div>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Zian (Zion) Cheng</span></h1>
+            <h2>MASc Civil Engineering Professional</h2>
+            <p>Specializing in Contract Administration and Numerical Modeling</p>
+            <div class="cta-group">
+                <button class="cta-button">Download Resume</button>
+                <a href="https://linkedin.com/in/zian-cheng" target="_blank" class="linkedin-icon">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="profile-photo">
+                    <img src="assets/profile.jpg" alt="Zian Cheng">
+                </div>
+                <div class="bio">
+                    <p>Civil Engineering Professional with expertise in contract administration, numerical modeling, and infrastructure design. Graduate from University of Toronto with a Master's degree in Civil Engineering (GPA 3.83/4.0). Experienced in working with multiple developers, contractors, and municipalities across Ontario.</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fas fa-drafting-compass"></i>
+                        <h3>Numerical Modeling</h3>
+                        <p>HEC-RAS, OpenFOAM, ANSYS Fluent</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming</h3>
+                        <p>Python, MATLAB</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-tasks"></i>
+                        <h3>Project Management</h3>
+                        <p>Contract Administration, OPSD</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">2023-Present</div>
+                    <div class="timeline-content">
+                        <h3>Contract Administrator</h3>
+                        <h4>Dillon Counterpoint Land Development</h4>
+                        <p>Conducting on-site inspections, managing contracts, and coordinating multiple projects with various sub-consultants and municipalities.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">2021-Present</div>
+                    <div class="timeline-content">
+                        <h3>Research Staff</h3>
+                        <h4>Centre for Climate Science and Engineering</h4>
+                        <p>Performing numerical fluid simulations on high-rise structures and validating numerical methods for structural design codes.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">2021-2023</div>
+                    <div class="timeline-content">
+                        <h3>Teaching Assistant</h3>
+                        <h4>University of Toronto</h4>
+                        <p>Managed and coached 250+ students in structural analysis, force equilibrium, and hydraulics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2 class="section-title">Projects & Research</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="assets/research.jpg" alt="Climate Science Research">
+                    <div class="project-overlay">
+                        <h3>Climate Science Research</h3>
+                        <p>Numerical fluid simulations on high-rise structures, validating methods for structural design codes</p>
+                        <div class="project-links">
+                            <a href="#" class="research-link">View Research</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="assets/damping.jpg" alt="Damping Device">
+                    <div class="project-overlay">
+                        <h3>Urban Viaduct Damping Device</h3>
+                        <p>Developed new damping and isolation device for urban viaducts (4 patents)</p>
+                        <div class="project-links">
+                            <a href="#" class="patent-link">View Patents</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="assets/bikeshare.jpg" alt="Bike-share Analysis">
+                    <div class="project-overlay">
+                        <h3>Toronto Bike-share Analysis</h3>
+                        <p>Developed regression models to predict future bike-share trends in Toronto</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="volunteer" class="volunteer-section">
+        <div class="container">
+            <h2 class="section-title">Volunteering & Leadership</h2>
+            <div class="volunteer-grid">
+                <div class="volunteer-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Student Union Leader</h3>
+                    <p>Led multiple competitions and commercial lectures for 500+ people</p>
+                    <p>Managed campus activities and fundraising (2017-2019)</p>
+                </div>
+                
+                <div class="volunteer-card">
+                    <i class="fas fa-globe-asia"></i>
+                    <h3>UN Certified Volunteer</h3>
+                    <p>Indonesian International Volunteer Program</p>
+                    <p>United Nations Volunteer Certificate (2019)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="interests" class="interests-section">
+        <div class="container">
+            <h2 class="section-title">Personal Interests</h2>
+            <div class="interests-grid">
+                <div class="interest-item">
+                    <i class="fas fa-camera"></i>
+                    <h3>Photography</h3>
+                    <p>Capturing moments and creating memories</p>
+                </div>
+                <!-- Add more interest items -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone"></i> 249-870-2580</p>
+                    <p><i class="fas fa-envelope"></i> chengzianthony@outlook.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 352 Front St West, Toronto</p>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/zian-cheng" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:chengzianthony@outlook.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Zian (Zion) Cheng. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
